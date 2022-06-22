@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');body{
-    font-family: 'Fredericka the Great', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');body{
+    font-family: 'Sedgwick Ave Display', cursive;
     background-color: black;
     background-image:url(../images/conflicted.gif);
     background-size:cover;
     background-attachment: fixed;
 }
-
+h3{
+    background-color: lightgray;
+}
 #main-container{
     border-radius: 5px;
     height: 500px;
@@ -14,11 +16,14 @@
     display: grid;
     grid-template-columns: 30% 70%;
     opacity: 95%;
+    padding: 5px;
 
 }
 .content{
+    height: 100px;
     margin: 5px;
     border-radius: 3px;
+    padding: 5px;
 }
 
 .content:nth-child(3n+1){
@@ -40,11 +45,11 @@
 }
 
 @keyframes danimation1 {
-    from{background-color: white;}
+    from{background-color: whitesmoke;}
     to {background-color:gray;}
 }
 @keyframes danimation2{
-    from{background-color:white;}
+    from{background-color:whitesmoke;}
     to{background-color: rgb(43, 107, 186)}
 }
 @keyframes danimation3{
