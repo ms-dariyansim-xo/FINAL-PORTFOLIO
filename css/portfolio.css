@@ -9,39 +9,54 @@
 #main-container{
     border-radius: 5px;
     height: 500px;
-    background-color: lightgray;
     width: 90%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 30% 70%;
-    opacity: 90%;
+    opacity: 95%;
 
 }
 .content{
     margin: 5px;
-    border-radius: 5px;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    border-radius: 3px;
 }
-.content:nth-child(2n){
-    animation: danimation1 1s infinite;
-    margin: 10px;
+
+.content:nth-child(3n+1){
+    animation: danimation3 3s infinite;
+    
 }
+.content:nth-child(3n+2){
+    animation: danimation2 1s infinite;
+    
+}
+.content.content:nth-child(3n+3){
+    background-color: black;
+    animation: danimation1 2s infinite;
+}
+
 #navigation{
     padding: 20px;
     
 }
 
 @keyframes danimation1 {
-    from{background-color: gray;)}
-    to {background-color:black;)}
+    from{background-color: white;}
+    to {background-color:gray;}
+}
+@keyframes danimation2{
+    from{background-color:white;}
+    to{background-color: rgb(43, 107, 186)}
+}
+@keyframes danimation3{
+    from{background-color:whitesmoke;}
+    to{background-color: rgb(175, 27, 93);}
+
 }
 
-
 .nav-functions{
-    border-left: 2px solid white;
-    border-right: 2px solid white;
-    border-radius: 5px;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    border-radius: 15px;
     padding: 15px;
     text-align: center;
     display: grid;
@@ -49,15 +64,13 @@
 }
 
 .nav-functions :hover{
-background-color: rgb(175, 27, 93);
-animation: danimation1 2s infinite;
 
 }
 
 #first-title {
     color: white;
     border-top: 3px solid white;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 10px;
     text-align: center;
     margin: 10px auto;
@@ -65,7 +78,7 @@ animation: danimation1 2s infinite;
     
 }
 #article-container{
-    
+    background-color: white;
     width: 90%;
     margin: 0 auto;
     margin: 50px auto;
@@ -73,6 +86,7 @@ animation: danimation1 2s infinite;
 }
 
 .first-article{
+    margin: 10px;
     padding: 15px;
     text-align: center;
     background-color: rgb(175, 27, 93);
