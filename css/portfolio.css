@@ -5,15 +5,18 @@ body{
     background-image:url(../images/conflicted.gif);
     background-size:cover;
     background-attachment: fixed;
-    color: white;
 }
 
 #main-container{
-    
+    height: 100px;
+    background-color: lightgray;
+    width: 90%;
+    margin: 0 auto;
+
 }
 
 #navigation{
-    border: 1px solid white;
+    padding: 20px;
 }
 
 .nav-functions{
@@ -21,17 +24,18 @@ body{
     text-align: center;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    background-color:white;
 }
 
 .nav-functions :hover{
-background-color: #8149a6;
+background-color: rgb(175, 27, 93);
 }
 
 #first-title {
     background-color: rgb(59, 88, 205);
+    border-radius: 5px;
+    padding: 10px;
     text-align: center;
-    margin: 0 auto;
+    margin: 10px auto;
     width: 90%;
     opacity: 80%;
     
@@ -46,7 +50,7 @@ background-color: #8149a6;
 .first-article{
     padding: 15px;
     text-align: center;
-    background-color: palegoldenrod;
+    background-color: rgb(175, 27, 93);
     opacity: 85%;
     color: black;
 }
