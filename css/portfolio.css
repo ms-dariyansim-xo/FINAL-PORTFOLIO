@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+body{
+    font-family: 'Kosugi Maru', sans-serif; 
+    background-color: black;
+    background-image:url(../images/conflicted.gif);
+    background-size:cover;
+    background-attachment: fixed;
+    color: white;
+}
+a{
+    color: #d98bb6;
+}
+p{
+    padding: 3px;
+}
+#navigation{
+    border: 5px solid white;
+}
+.nav-functions{
+    padding: 5px;
+    text-align: center;
+    margin: 3px;
+    border: 1px solid #d98bb6;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color:white;
+}
+h3{
+    background-color: #8149a6;
+    color: black;
+}
+h4{
+    background-color: rgba(242, 35, 166, 0.734);
+}
+h5{
+    background-color: palegoldenrod;
+    margin: 10px;
+    color: black;
+}
+.nav-functions :hover{
+background-color: #8149a6;
+}
+#ai-image{
+    text-align: center;
+    opacity: 80%;
+    transition: width 10s;
+    
+}
+.AI-img:hover {
+    border-radius: 25px;
+    width: 100px;
+}
+#first-title {
+    background-color: black;
+    border: 1px solid white;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 15px;;
+    margin-top: 15px;
+    width: 80%;
+    opacity: 80%;
+    
+}
+.intro-content{
+    text-align: center;
+    background-color: black;
+    opacity: 60%;
+}
+.aboutme-container{
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 80%;
+    border: 1px solid white;
+    text-align: center;
+    opacity: 80%;
+}
+#article-container{
+    width:80%;
+    margin: 0 auto;
+    margin: 50px auto;
+    margin-bottom: 50px;
+}
+
+.first-article{
+    padding: 15px;
+    text-align: center;
+    background-color: palegoldenrod;
+    opacity: 85%;
+    color: black;
+
+    
+
+}
+
+#ego-columns{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 30px;
+    gap: 15px;
+    text-align: center;
+    background-color: gray;
+    transition: width 3s;
+    opacity: 90%;
+    
+}
+.egoname-columns:hover{
+    border: 1px dotted white;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+#blog-boxing{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+#blog-container{
+    border: 1px dashed white;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 5px;
+    margin: 15px;
+}
+.text-image{
+    background-color: white;
+}
+#ego-container{
+    height: 750px;
+}
+.ego-images{
+    border-radius: 10%;
+}
