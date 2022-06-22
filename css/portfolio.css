@@ -12,14 +12,19 @@ body{
     background-color: lightgray;
     width: 90%;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
 
 }
+.content{
 
+}
 #navigation{
     padding: 20px;
 }
 
 .nav-functions{
+    transform: rotate(20 deg);
     padding: 5px;
     text-align: center;
     display: grid;
@@ -28,6 +33,7 @@ body{
 
 .nav-functions :hover{
 background-color: rgb(175, 27, 93);
+
 }
 
 #first-title {
