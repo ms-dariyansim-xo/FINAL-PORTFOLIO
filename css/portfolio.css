@@ -86,6 +86,7 @@ h3{
     font-size: 18pt;
     grid-template-columns: auto auto auto auto auto;
     transition: linear 2s;
+    
 }
 .nav-functions:hover{
 background-color: gray;
@@ -103,6 +104,8 @@ padding: 20px;
     margin: 10px auto;
     width: 90%;
     font-size: 16pt;
+    box-shadow: 1px 1px 15px;
+    
 }
 #article-container{
     border-radius: 5px;
@@ -110,6 +113,7 @@ padding: 20px;
     width: 90%;
     margin: 0 auto;
     height: 100%;
+    
 }
 
 .first-article{
@@ -119,6 +123,7 @@ padding: 20px;
     background-color: rgb(175, 27, 93);
     opacity: 85%;
     color: black;
+    box-shadow: 5px 5px 5px;
 }
 #bottom-container{
     height: 100%;
