@@ -127,8 +127,8 @@ h3{
 }
 
 #blog-container{
+    text-align: center;
     margin: 0 auto;
-    background-color: white;
     height: 100%;
     width: 50%;
 }
