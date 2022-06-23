@@ -31,13 +31,15 @@ h3{
     grid-template-columns: 20% 80%;
 }
 .content{
-    height: 70%;
+    height: 200px;
     margin: 3px;
     border-radius: 3px;
     padding: 5px;
 }
 .content:nth-child(2n+1){
     writing-mode: vertical-rl;
+    width: 50%;
+    height: 90%;
 }
 
 .content:nth-child(3n+1){
