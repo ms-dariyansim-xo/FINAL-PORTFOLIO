@@ -29,10 +29,10 @@ h3{
 #left-container{
     display: grid;
     grid-template-columns: 20% 80%;
-    transition: ease-in-out 2s;
+    transition: ease-in-out 1s;
 }
 #left-container:hover{
-    transition: ease-in-out 2s;
+    
     
 }
 .content{
@@ -89,11 +89,14 @@ h3{
     display: grid;
     font-size: 18pt;
     grid-template-columns: auto auto auto auto auto;
+    transition: linear 2s;
+}
+.nav-functions:hover{
+background-color: gray;
+margin: 10px;
+padding: 20px;
 }
 
-.nav-functions :hover{
-
-}
 
 #first-title {
     color: white;
