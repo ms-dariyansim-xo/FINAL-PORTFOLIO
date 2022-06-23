@@ -14,13 +14,17 @@ h3{
 #main-container{
     border-radius: 5px;
     height: 500px;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 50% 50%;
     opacity: 95%;
     padding: 5px;
 
+}
+#left-container{
+    display: grid;
+    grid-template-columns: auto auto;
 }
 .content{
     height: 50%;
