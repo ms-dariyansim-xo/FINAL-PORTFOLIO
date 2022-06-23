@@ -1,42 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');body{
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+body{
     font-family: 'Sedgwick Ave Display', cursive;
     background-color: black;
     background-image:url(../images/conflicted.gif);
     background-size:cover;
     background-attachment: fixed;
 }
+
 h3{
     background-color: lightgray;
 }
+
 #main-container{
     border-radius: 5px;
     height: 500px;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 40% 60%;
     opacity: 95%;
     padding: 5px;
 
 }
 .content{
-    height: 100px;
-    margin: 5px;
+    height: 50%;
+    margin: 3px;
     border-radius: 3px;
     padding: 5px;
 }
-
 .content:nth-child(3n+1){
-    animation: danimation3 3s infinite;
+    animation: danimation3 2s infinite;
     
 }
 .content:nth-child(3n+2){
-    animation: danimation2 1s infinite;
+    animation: danimation2 3s infinite;
     
 }
 .content.content:nth-child(3n+3){
     background-color: black;
-    animation: danimation1 2s infinite;
+    animation: danimation1 1s infinite;
 }
 
 #navigation{
@@ -83,11 +85,11 @@ h3{
     
 }
 #article-container{
+    border-radius: 5px;
     background-color: white;
     width: 90%;
     margin: 0 auto;
-    margin: 50px auto;
-    margin-bottom: 50px;
+    height: 100%;
 }
 
 .first-article{
